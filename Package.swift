@@ -22,7 +22,7 @@ let package = Package(
             name: "SlideLibrary",
                 path: "Sources",
                 exclude: [],
-                sources: ["SlideLibrary/AMSlideMenuContentSegue.m"],
+                sources: ["SlideLibrary/AMSlideMenuContentSegue.m", "SlideLibrary/UIViewController+AMSlideMenu.m"],
                 publicHeadersPath: "SlideLibrary"),
         .testTarget(
             name: "SlideLibraryTests",
